@@ -27,8 +27,5 @@ Steps
 5.	Do some extension work. 
 
 
-Challenges
-1.	Unfamiliar functions. This is a problem about 2D board, I may encounter some image functions that I have never used before. 
-2.	Difficulty in implementing the rules. It is possible that some rules cannot be realized due to my limit skills or will be implemented with hard coding.
-3.	I will use google first in case any problems occurs and turn to the professor for help if necessary.   
+
 
