@@ -60,7 +60,7 @@ def next_cell_value(cell_coords, state):
     num_of_live_neighbors = 0 # number of live neighbors of each cell.
     #iterate over the neighbor cells.
     for x1 in range(x-1,(x+1)+1):
-        if x1-1 <0 or x1>=width: continue # make sure we dont go off eadge cells.
+        if x1-1 <0 or x1>=width: continue # make sure we dont go off edge cells.
         for y1 in range(y-1, (y+1)+1):
             if y1-1<0 or y1>=height:continue
             if x1==x and y1==y: continue # make sure we dont go off the cell itself.
