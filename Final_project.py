@@ -8,9 +8,9 @@ import time
 def random_state(width, height):
     # the board is a list of lists
     state = []
-    for y in range(height):
+    for x in range(width):
         row = []
-        for x in range(width):
+        for y in range(height):
             #use the random function to generate random number from 0 to 1.0
             random_number = random.random()
             # 0 for dead, 1 for alive
@@ -98,7 +98,7 @@ def run_forever(initial_state):
         time.sleep(0.03)
 
 if __name__ == "__main__":
-    initial_state = random_state(50, 50)
+    initial_state = random_state(100, 50)
     # init_state = load_board_state('./toad.txt')
     run_forever(initial_state)          
 
