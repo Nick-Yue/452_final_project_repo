@@ -4,6 +4,9 @@ How to run the program?
 Just download the py file and run it.
 
 Project Abstract
+
+
+
 My final project would be a programming project, the name of which is Game of Life(Or just “Life”). This is a game that creates a 2D world where all cells live in a grid of squares,  according to some given rules, they may live, die and evolve.  The initial status of cells are either “alive” or “dead”.  Each cell has a life circle, during which the status of a cell may change. The number of  8 immediate neighbors that are alive have impact on the change. 
 There are 4 rules that control the updates of cell liveness: 
 1.	Any live cell with 0 or 1 live neighbors becomes dead, because of underpopulation
