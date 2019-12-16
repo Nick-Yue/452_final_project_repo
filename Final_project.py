@@ -49,7 +49,7 @@ def state_width(statename):
 #define a function that can return the height of the state.
 def state_height(statename):
     return len(statename[0])
-    
+
 #define a function that can calculate the next value of a cell in a state.
 def next_cell_value(cell_coords, state):
     width = state_width(state) #get the width of the state.
@@ -88,6 +88,8 @@ def next_board_state(initial_state):
             next_state[x][y] = next_cell_value((x,y),initial_state)
     return next_state 
 
+
+#Stage 4: Run the game of life forever. 
 
 def run_forever(initial_state):
     next_state = initial_state
