@@ -22,16 +22,7 @@ def random_state(width, height):
         state.append(row)
     return state
 
-
 #Statge 2: Print the state/board in the terminal. 
-
-# define a function that can return the width of the state.
-def state_width(statename):
-    return len(statename)
-
-#define a function that can return the height of the state.
-def state_height(statename):
-    return len(statename[0])
 
 #define a render function that can print the board int the terminal.
 def render(state):
@@ -51,6 +42,14 @@ def render(state):
 
 #Stage 3: Calculate the next state of the board
 
+# define a function that can return the width of the state.
+def state_width(statename):
+    return len(statename)
+
+#define a function that can return the height of the state.
+def state_height(statename):
+    return len(statename[0])
+    
 #define a function that can calculate the next value of a cell in a state.
 def next_cell_value(cell_coords, state):
     width = state_width(state) #get the width of the state.
